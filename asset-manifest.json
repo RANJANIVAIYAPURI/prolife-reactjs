@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/prolife-reactjs/static/css/main.23540069.css",
+    "main.js": "/prolife-reactjs/static/js/main.51691e8a.js",
+    "static/media/back2.png": "/prolife-reactjs/static/media/back2.5a9e82c9563b5f4482d0.png",
+    "static/media/back.png": "/prolife-reactjs/static/media/back.cc934d1d184aa051ed3c.png",
+    "static/media/rev1.png": "/prolife-reactjs/static/media/rev1.68a5fce7ce156f15bfab.png",
+    "static/media/g4.png": "/prolife-reactjs/static/media/g4.0ba39754bbe4dc2aa72b.png",
+    "static/media/pt.png": "/prolife-reactjs/static/media/pt.66d9de3c9ac00e711c72.png",
+    "static/media/himg.png": "/prolife-reactjs/static/media/himg.351071db983ca8e583cb.png",
+    "static/media/fp.png": "/prolife-reactjs/static/media/fp.1453d9eb40f08436f5e8.png",
+    "static/media/g3.png": "/prolife-reactjs/static/media/g3.74ca1636351cdd726b0b.png",
+    "static/media/dc.png": "/prolife-reactjs/static/media/dc.a4b7d1703da711d3f410.png",
+    "static/media/g1.png": "/prolife-reactjs/static/media/g1.1a408548da53594a08d9.png",
+    "static/media/g2.png": "/prolife-reactjs/static/media/g2.1734bded257df2871136.png",
+    "static/media/foot.png": "/prolife-reactjs/static/media/foot.adbb09d24f8728be031b.png",
+    "static/media/Trainer.png": "/prolife-reactjs/static/media/Trainer.629741a1273347ed9638.png",
+    "index.html": "/prolife-reactjs/index.html",
+    "main.23540069.css.map": "/prolife-reactjs/static/css/main.23540069.css.map",
+    "main.51691e8a.js.map": "/prolife-reactjs/static/js/main.51691e8a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.23540069.css",
+    "static/js/main.51691e8a.js"
+  ]
+}
