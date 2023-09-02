@@ -1,0 +1,170 @@
+.Price {
+    background-color: black;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .Price h1 {
+    font-size: 36px;
+    font-weight: 600;
+    color: white;
+  }
+  
+  .Price h6 {
+    padding-top: 6px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 550px;
+    color: white;
+  }
+  
+  
+  
+  .Price .row {
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  
+  .card-title {
+    background-image: url(../images/Pricecard.png);
+    background-size: cover;
+    width: 300px;
+    height: 450px;
+    flex-basis: calc(27%);
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    border: 2px solid #fff;
+    padding-top: 3rem;
+    padding: 20px 12px;
+    position: relative;
+    transition: 2s;
+  }
+  
+  .card-title:hover {
+    box-shadow: 0 0 70px 0px rgb(134, 111, 111);
+    transform: scale(1.04);
+  }
+  
+  .card-title h5 {
+    padding-top: 2px;
+    text-align: left;
+    font-size: 17px;
+    font-weight: 600;
+    margin: 8px 0;
+    color: #DFFE56;
+  }
+  
+  .card-title h2 {
+    padding-top: 5px;
+    text-align: left;
+    font-size: 32px;
+    font-weight: 600;
+    margin: 8px 0;
+    color: white;
+  }
+  
+  .card-price {
+    padding-top: 7px;
+    text-align: left;
+    color: white;
+    font-size: 32px;
+    font-weight: 800;
+  }
+  
+  .Price p {
+    margin: 1rem 0 2rem;
+    font-family: Gothic A1;
+    font-size: 1.0rem;
+    font-weight: 600;
+    line-height: 25px;
+    letter-spacing: 0.001em;
+    text-align: justify;
+  }
+  
+  .btn2.lg2 {
+    width: 90%;
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-right: 4rem;
+    padding-left: 4rem;
+    font-weight: bold;
+    font-size: 18px;
+    background: #DFFE56;
+    border-radius: 5px;
+    position: relative;
+    cursor: pointer;
+    transition: 0.3s, rgb(191, 101, 101) 0.3s;
+  }
+  
+  .btn2.lg2:hover {
+    background: orangered;
+    color: whitesmoke;
+  }
+  
+  @media (max-width: 700px) {
+    
+    .Price {
+      padding-top: 30px;
+      place-items: center;
+    }
+  
+    .Price h1 {
+      font-size: 28px;
+    }
+  
+    .Price h6 {
+      font-size: 14px;
+    }
+  
+    .Price .row {
+      justify-content: center;
+    }
+  
+    .card-title {
+      width: 100%;
+      flex-basis: unset;
+      margin-bottom: 20px;
+      height: auto;
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+    }
+  
+    .card-title:hover {
+      box-shadow: 0 0 50px 0px rgb(134, 111, 111);
+      transform: scale(1.02);
+    }
+  
+    .card-title h5 {
+      font-size: 14px;
+    }
+  
+    .card-title h2 {
+      font-size: 24px;
+    }
+  
+    .card-price {
+      font-size: 28px;
+    }
+    .Price p {
+      font-size: 0.9rem;
+      margin: 0.5rem 0 1rem;
+      line-height: 22px;
+    }
+  
+    .btn2.lg2 {
+      padding-right: 2rem;
+      padding-left: 2rem;
+    }
+  
+  .btn2.lg2:hover {
+    background: orangered;
+    color: whitesmoke;
+  }
+  }

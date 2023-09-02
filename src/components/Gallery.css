@@ -1,0 +1,93 @@
+.Gallery {
+    background-color: black;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    
+  }
+  
+  
+  
+  
+  .Gallery h1 {
+    font-size: 36px;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+  }
+  
+  .Gallery h6 {
+    padding-top: 6px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 550px;
+    color: white;
+  }
+  
+  
+  
+  .Gallery .sliders {
+    padding: 5%;
+    padding-left: 7%;
+    height: 400px;
+    margin: auto;
+    position: relative;
+    width: 86%;
+    display: grid;
+    place-items: center;
+    overflow: hidden;
+  }
+  
+  .slider-track {
+    display: flex;
+    width: calc(250px * 18);
+    animation: scroll 7s linear infinite;
+  }
+  
+  @keyframes scroll {
+    0%   { transform: translateX(0); }
+    100% { transform: translateX(calc(-250px * 4)); }
+  }
+  
+  .slide1 {
+    height: 400px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    perspective: 100px;
+    overflow: hidden;
+  }
+  
+  .slide1 img {
+    width: 100%;
+    transition: transform 0.3s ease-in-out;
+    padding-bottom: 0%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+  }
+  
+  .slide1 img:hover {
+    transform: translateZ(20px);
+  }
+  
+  
+  @media (max-width: 768px) {
+    .Gallery {
+      padding: 30px 30px;
+      background-color: black;
+      background-attachment: fixed;
+      height: auto; 
+      position: relative;
+    }
+    .slide1 {
+      height: 300px; 
+      width: 300px; 
+      padding: 30px 2px; 
+    }
+  
+  }
+  

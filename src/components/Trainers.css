@@ -1,0 +1,191 @@
+.Trainers {
+    background-color: black;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    place-items: center;
+  }
+  
+  .Trainers h1 {
+    font-size: 36px;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+  }
+  
+  .Trainers h6 {
+    padding-top: 6px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 550px;
+    color: white;
+  }
+  
+  
+  
+  .main {
+    padding-top: 25px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    grid-template-rows: repeat(2, 1fr); 
+    row-gap: 5%;
+    column-gap: 10px;
+    box-sizing: border-box;
+    width: 100%;
+    place-items: center;
+  }
+  
+  .full-boxer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .box-top {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  
+  
+  .comment-box {
+    border: 1px solid gray;
+    padding: 10px;
+    width: 300px;
+    background: black;
+    border-radius: 8px;
+    box-shadow: 3px 3px 25px rgba(0, 0, 0, 0.3);
+  }
+  
+  .Profile {
+    display: flex;
+    align-items: center;
+  }
+  
+  .profile-image {
+    width: 70px;
+    height: 70px;
+    box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    border-radius: 50%;
+    margin-right: 5px;
+  }
+  
+  .profile-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+  
+  .Name {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+  }
+  
+  .Name strong {
+    color: white;
+    font-size: 20px;
+  }
+  
+  .Name span {
+    color: #DFFE56;
+    margin-top: 2px;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  
+  .comment p {
+    text-align: left;
+    padding-top: 5px;
+    padding-bottom: 0px;
+    font-size: 16px;
+    color: white;
+    font-family: Gothic A1;
+    font-weight: 600;
+  }
+  
+  @media (max-width: 768px) {
+    .Trainers {
+      padding: 30px 30px;
+      height: auto;
+    }
+  
+    .Trainers h1 {
+      font-size: 30px;
+    }
+  
+    .Trainers h6 {
+      font-size: 14px;
+    }
+    
+    
+    .main {
+      align-items: center;
+      grid-template-columns: repeat(2, 1fr); 
+      grid-template-rows: repeat(3, 1fr); 
+      row-gap: 10px;
+      column-gap: 10px;
+      padding-top: 15px;
+    }
+  
+    .full-boxer {
+      justify-content: flex-start;
+      align-items: center;
+    }
+  
+    .box-top {
+      flex-direction: column;
+      align-items: flex-start;
+      margin-bottom: 10px;
+    }
+  
+    .comment-box {
+      width: 100%; 
+    }
+  
+   
+    .comment-box {
+      width: 100%;
+      margin: 0 auto;
+      padding: 15px;
+      box-shadow: none;
+    }
+  
+    .Profile {
+      justify-content: center;
+      margin-top: 10px;
+    }
+  
+    .profile-image {
+      width: 50px;
+      height: 50px;
+      box-shadow: none;
+      margin-right: 10px;
+    }
+    .Name {
+  
+      margin-top: 5px; 
+    }
+  
+    .Name strong {
+      font-size: 18px; 
+    }
+  
+    .Name span {
+      font-size: 16px; 
+      margin-top: 1px; 
+    }
+  
+    .comment p {
+      font-size: 14px; 
+      padding-top: 3px; 
+      font-weight: 500; 
+    }
+  }
+  

@@ -1,0 +1,213 @@
+
+.Reviews {
+
+    background-image: url(../images/back2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  
+  .Reviews h1 {
+    font-size: 36px;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+  }
+  
+  .Reviews h6 {
+    padding-top: 6px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 550px;
+    color: white;
+  }
+  
+  
+  .Reviews p {
+    margin: 1rem 0 3.5rem;    
+  font-family: Gothic A1;
+  font-size: 1.0rem;
+  font-weight: 600;
+  line-height: 40px;
+  letter-spacing: 0.001em;
+  text-align: justify;
+  line-height: 30px;
+  text-align: left;
+  
+  
+  
+  }
+  .Reviews h5 {
+    font-family: PT Sans;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: #939393;
+  
+  
+  }
+  
+  
+  h2 {
+    font-size: 30px;
+  
+    
+  }
+  
+  
+  h3 {
+  font-family: PT Serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 33px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  
+  
+  }
+  
+  
+  
+  .indicator {
+    
+    display: flex;
+    justify-content: center; 
+  }
+  
+  .btn4 {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #ccc;
+    margin: 0 5px;
+    cursor: pointer;
+  }
+  
+  .btn4.active {
+    background-color: yellow;
+  }
+  
+  
+  
+  
+  .container1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    transform: translate(-50,-50%);
+  }
+  
+  .container-story {
+    height: 100%;
+    width: 100%;
+    display: grid;
+       grid-template-columns: 1fr 1fr;
+      padding-top: 10px;
+      transform: translate(-50,-50%);
+   }
+  
+  
+  
+  
+  .story-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+  
+  
+  
+  .story-left .img-image {
+    width: 100%;
+    max-width: 400px;
+    
+  }
+  
+  .story-right {
+  width: 550px;
+  height: 200px;
+  margin-top: 1px;
+  margin-left: 0%;
+  align-items: left;
+   
+  }
+  @media (max-width: 768px) {
+   
+    .Reviews {
+        padding: 30px 50px;
+       
+    }
+  
+    .Reviews h1 {
+        font-size: 20px;
+        align-items: center;
+    }
+  
+    .Reviews h6 {
+        padding-top: 4px;
+        font-size: 14px;
+    }
+  
+    .Reviews p {
+        font-size: 13px;
+        line-height: 28px;
+    }
+  
+    .Reviews h5 {
+        font-size: 17px;
+        line-height: 24px;
+    }
+  
+    h2 {
+        font-size: 18px;
+    }
+  
+    h3 {
+        font-size: 16px;
+        line-height: 28px;
+    }
+  
+  
+    .indicator {
+        justify-content: center;
+        margin-top: 10px;
+    }
+  
+    .btn4 {
+        width: 8px;
+        height: 8px;
+        margin: 0 4px;
+    }
+  
+    
+    .container1 {
+        margin-top: 20px;
+    }
+  
+    .container-story {
+        grid-template-columns: 1fr;
+        padding-top: 5px;
+    }
+  
+    .story-left {
+        align-items: center;
+    }
+  
+    .story-left .img-image {
+        max-width: 100%;
+    }
+  
+    .story-right {
+        width: 100%;
+        height: auto;
+        margin-top: 10px;
+    }
+  }
+  
+  
